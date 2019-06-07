@@ -1,2 +1,2 @@
 # Misc-Math
-Various Interesting Mathematics and Physics Scripts<br/>  Asher Moldwin
+Various Interesting Mathematics and Physics Scripts<br/>  Contributors: Asher Moldwin
