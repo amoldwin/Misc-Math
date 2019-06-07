@@ -1,8 +1,8 @@
 
 %Script to recursively construct and plot the first 6 "Cardinal B Splines"
-%and the corresponding wavelets, and the normalized refineable functions
+%and the corresponding wavelets, and the normalized refinable functions
 %For the definition of Cardinal B Splines see:  https://en.wikipedia.org/wiki/B-spline#Cardinal_B-spline
-% For an explanation of the normalized refineable function, see https://www.math.cuhk.edu.hk/~djfeng/fengpapers/ACHA/refinable.pdf
+% For an explanation of the normalized refinable function, see https://www.math.cuhk.edu.hk/~djfeng/fengpapers/ACHA/refinable.pdf
 close all
 
 %set y-values by calling function explicitly defining the 3rd Cardinal
@@ -157,7 +157,7 @@ if x>=3 && x<4
     a=-((x^3)/6) + 2*(x^2)-(8*x)+(32/3);
 end
 end
-% easy helper function for the refineable function
+% easy helper function for the refinable function
 function a = choose(n,k)
 if k<=n
      a=nchoosek(n,k);
